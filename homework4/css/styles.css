@@ -1,0 +1,29 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    width: 100%;
+    height: 180px;
+    background-color: rgb(150, 96, 201);
+}
+
+main {
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(78, 52, 52);
+    background-color: rgb(228, 111, 156);
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    height: 180px;
+    background-color: rgb(127, 255, 255);
+}
